@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
   font-size: 14px;
 }
+/*formatação de input*/
+input{
+  border-radius: 10px;
+  width: auto;
+  text-align: center;
+
+}
