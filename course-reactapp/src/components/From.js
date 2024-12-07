@@ -1,8 +1,8 @@
 function Form(){
     return(
         <div>
-            <h1>formulario de teste</h1>
-                Nome:
+            <h3>formulario de teste</h3>
+                <p>Nome:</p>
                 <input></input>
         </div>
     );
