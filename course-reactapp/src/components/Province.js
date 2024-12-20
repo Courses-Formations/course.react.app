@@ -2,7 +2,7 @@
 function Province(props){
     return(
 <div>
-    <p>Sou da provincia da {props.name}, municipio do {props.county}</p>
+    <p>Sou da Provincia da {props.name}, Municipio do {props.county}</p>
 </div>
 
     );

@@ -1,13 +1,9 @@
 *{
     transition: all 0.3s ease-out;
 }
-.cardContainer {
-    width: auto;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+  h2{
+    color: red;
   }
   h3{
     color: #262626;
@@ -25,6 +21,24 @@
   p small{
     font-size: 14px;
   }
+  .cardColumn{
+    float: left;
+    width:auto;
+    padding:5px;
+  }
+  .cardRow{
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .cardContainer {
+      width: auto;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   .cardCorner{
     display: flex;
     align-items: center;
@@ -79,6 +93,9 @@
     }
     h3{
         color: #fff;
+    }
+    h2{
+      color: #fefefe;
     }
     
   }
